@@ -4,11 +4,15 @@
 */
 :root {
   --bg-color: #000028;
+  --element-dekor-color: #ff0070;
   --decoration-text-color: #db00ff;
+  --text-shadow: #ff0070;
   --accent-text-color: #000028;
   --accent-bg-color: #ff0070;
   --title-color: #ff0070;
   --main-text-color: #f1b2ce;
   --bg-image: url(../images/cover-image-dark.png);
+  --button-color: #ff0070;
   --outline-hover: rgba(255, 0, 112, 0.4);
+  --font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
