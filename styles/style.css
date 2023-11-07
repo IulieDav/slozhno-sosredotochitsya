@@ -5,7 +5,7 @@
   min-inline-size: 375px;
   margin: 0;
   background-color: var(--bg-color);
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: "IBM Plex mono", sans-serif;
   background-image: var(--bg-image);
   background-size: cover;
   background-position: center;
@@ -23,7 +23,7 @@
 }
 
 .decorated-zone::before {
-  content: '';
+  content: "";
   position: absolute;
   inline-size: 25px;
   block-size: 25px;
@@ -34,18 +34,19 @@
 }
 
 .decorated-zone::after {
-  content: '';
+  content: "";
   position: absolute;
   inline-size: 25px;
   block-size: 25px;
   border-inline-start: 1px solid var(--element-dekor-color);
   border-block-end: 1px solid var(--element-dekor-color);
   inset-inline-start: 10px;
-  inset-block-end: 10px;  
+  inset-block-end: 10px;
 }
 
 .header__element-dekor {
   position: absolute;
+  display: var(--element-dekor-display);
   font-size: 18px;
   color: var(--element-dekor-color);
   inset-inline-end: 38px;
@@ -53,7 +54,7 @@
 }
 
 .header__element-dekor::after {
-  content: '';
+  content: "";
   position: absolute;
   inline-size: 9px;
   block-size: 9px;
@@ -248,7 +249,7 @@ a:focus-visible {
     gap: 20px;
   }
 
-  .second-section ul{
+  .second-section ul {
     grid-column-start: 1;
     grid-column-end: span 2;
   }
@@ -292,7 +293,7 @@ a:focus-visible {
     object-fit: cover;
     object-position: center;
   }
-  
+
   .image-5 {
     grid-column: 2 / 4;
   }
@@ -300,7 +301,7 @@ a:focus-visible {
   .footer__title {
     --font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-} 
+}
 
 @media (width >= 1024px) {
   .header__theme-menu-list {
@@ -312,7 +313,7 @@ a:focus-visible {
     justify-self: center;
     align-self: start;
   }
-  
+
   .content-section {
     gap: 10px;
   }
