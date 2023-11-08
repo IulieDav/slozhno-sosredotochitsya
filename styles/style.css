@@ -5,7 +5,7 @@
   min-inline-size: 375px;
   margin: 0;
   background-color: var(--bg-color);
-  font-family: "IBM Plex mono", sans-serif;
+  font-family: "IBM Plex mono", monospace;
   background-image: var(--bg-image);
   background-size: cover;
   background-position: center;
@@ -16,6 +16,8 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   padding: 10px;
+  block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .decorated-zone {
@@ -48,6 +50,7 @@
   position: absolute;
   display: var(--element-dekor-display);
   font-size: 18px;
+  text-transform: uppercase;
   color: var(--element-dekor-color);
   inset-inline-end: 38px;
   inset-block-start: 10px;
@@ -190,6 +193,8 @@ a:focus-visible {
   position: relative;
   justify-content: center;
   align-items: center;
+  block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .footer__title {
